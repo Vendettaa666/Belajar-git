@@ -9,7 +9,7 @@ interface HorrorGame {
 
 class Game implements ZombieGame, HorrorGame {
     public function isItAZombieGame() {
-        echo "This is Game \n";
+        echo "This is git pull \n";
     }
 
     public function isItAHorrorZombieGame($HorrorGame) {
