@@ -20,4 +20,8 @@ class Game implements ZombieGame, HorrorGame {
 $myGame = new Game("Need For Speed");
 $myGame->isItAZombieGame();
 $myGame->isItAHorrorZombieGame("NO");
+
+$game = new Game("Minecraft");
+$game->isItAHorrorZombieGame();
+$game->isItAHorrorZombieGame("NO");
 ?>
